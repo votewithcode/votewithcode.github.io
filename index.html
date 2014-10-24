@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Vote with code.</title>
-</head>
-
-<link rel="shortcut icon" type="image/png" href="/che.png">
-
+<title>Vote with code</title>
 <style>
-
  @font-face {
     font-family: dymo;
     src: url("Impact Label.ttf");
@@ -17,58 +13,83 @@
     font-family: dymo-reverse;
     src: url("Impact Label Reversed.ttf");
 }
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+    height: 200px;
+}
+nav {
+    background-color:inherit;
+    height:300px;
+    width:300px;
+    float:left;
+    padding:5px;	      
+    background-image: url(che.png);
+    background-repeat: no-repeat;
+}
+section {
+    width:500px;
+    float:left;
+    background-color: gray;
+    padding: 12px;	 	
+    width: 64%;
+    height: 275px;
+    overflow: auto;
+    vertical-align: middle;
+    background-image: url(bg.jpg);
+ 
+}
 
-html { 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+body{
+  margin: 0;
+  background-color: #111
 
 }
 
-
- body{
- 	background-color:#000;
- 	margin: 0;
- 	padding: 0
- }
-
-
- div.title{
+div.title{
   font-family:dymo;
   font-weight: normal;
   position: relative;
-  top:140px;
-  font-size: 48px;
-  background-color: white;
-  padding: 0;
-  width: 100%;
-  height: 280px;
-  vertical-align: middle;
-  background-color: whitesmoke;
- 
+  font-size: 42px;
  }
 
  .foo{
- 	position: relative;
- 	font-family: dymo;
- 	font-size: 24px;
-
+    position: relative;
+    font-family: dymo;
+    font-size: 24px;
  }
 
-
 </style>
+</head>
 
 <body>
 
+<header></header>
 
-<div class="title" align="center"><br/>
-  Connecting people <br>with their governments <br>through open source
-  <br><br>
- <div class="foo">Fun stuff coming soon</div>
+<nav></nav>
+
+<section><br /><br /><br />
+
+<div align="center">
+ <div class="title" align="center">
+    Connecting people with government through open source
+    <br /><br />
+   <div class="foo">Fun stuff coming soon</div>    
 </div>
 
+</section>
 
+<footer>
+</footer>
 
 </body>
 </html>
